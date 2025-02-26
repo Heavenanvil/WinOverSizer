@@ -106,7 +106,7 @@
         <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
         <VerInfo_Locale>1033</VerInfo_Locale>
         <Manifest_File>WinOverSizer.exe.manifest</Manifest_File>
-        <Icon_MainIcon>..\res\icon.ico</Icon_MainIcon>
+        <Icon_MainIcon>res\icon.ico</Icon_MainIcon>
         <UWP_DelphiLogo44>res\icon_44x44.png</UWP_DelphiLogo44>
         <UWP_DelphiLogo150>res\icon_150x150.png</UWP_DelphiLogo150>
     </PropertyGroup>
@@ -129,9 +129,8 @@
         <DelphiCompile Include="$(MainSource)">
             <MainSource>MainSource</MainSource>
         </DelphiCompile>
-        <DCCReference Include="..\Unit1.pas">
+        <DCCReference Include="Unit1.pas">
             <Form>Form1</Form>
-            <FormType>dfm</FormType>
         </DCCReference>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
